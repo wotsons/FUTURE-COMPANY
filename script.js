@@ -1,12 +1,11 @@
 var slides = document.querySelectorAll('.slide');
-        var btns = document.querySelectorAll('.btn');
-        let currentSlide = 1;
+var btns = document.querySelectorAll('.btn');
+let currentSlide = 1;
 
 // Javascript for image slider manual navigation
 var manualNav = function(manual){
     slides.forEach((slide) => {
       slide.classList.remove('active');
-
       btns.forEach((btn) => {
         btn.classList.remove('active');
       });
@@ -45,7 +44,7 @@ var manualNav = function(manual){
         return;
       }
       repeater();
-    }, 10000);
+    }, 5000);
     }
     repeater();
   }
