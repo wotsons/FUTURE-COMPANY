@@ -18,7 +18,7 @@
             </div>
             <div class="pesquisa">
                 <form action="" class="pesquisa">
-                    <input type="search" id="texto">
+                    <input type="search" id="texto" placeholder="Buscar">
                     <img src="../imagens/lupa.png" class="btn">
                 </form>
             </div>
@@ -37,22 +37,24 @@
             </div>
         </div>
     </header>
-    <h1 class="title">Contato</h1>
+    
     <section>
-        <div id="campo">
-            <label for="nome">Nome completo</label>
-            <input type="text" name="nome" id="nome" required>
-        </div>
+        <h1 class="title">Contato</h1>
+        <form >
+            <div id="campo">
+                <label for="nome">Nome completo</label>
+                <input class="inputcontato" type="text" name="nome" id="nome" required>
+            </div>
 
-        <div id="campo">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-        </div>
+            <div id="campo">
+                <label for="email">Email</label>
+                <input class="inputcontato" type="email" name="email" id="email" required>
+            </div>
 
-        <div id="campo">
-            <label>Assunto</label>
-            <input type="text" name="assunto" id="assunto" required>
-        </div>
+            <div id="campo">
+                <label>Assunto</label>
+                <input class="inputcontato" type="text" name="assunto" id="assunto" required>
+            </div>
 
             <div id="campo">
                 <label for="textarea"class="text">Mensagem</label>
@@ -60,7 +62,10 @@
             </div>
 
             <button value="" type="submit"><strong>Enviar</strong> </button>
-            
+        </form>
     </section>
+    <footer>
+        <p>© Copyright - <strong>FUTURE COMPANY </strong></p>
+    </footer>
 </body>
 </html>

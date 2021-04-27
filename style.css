@@ -4,42 +4,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
   
 body{
-    height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #030E20;
-    flex-direction: column;
+    background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/65/253565/1.0-rev1/images/e1d2d8012d2fe9a9c1f811bc960ff666/6887db89d7ef6014571cae0b7106ff1b.jpg);
 }
 
 header{
     width: 100%;
-    height: 30vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
-    top: 0;
-
-}
-
-.container_header{
-    background-color: #030E20;
-    width: 100%;
-    position: absolute;
-    display: flex;
-}
-
-.logo{
-    position: absolute;
-    width: 210px;
-    height: 84px;
-    Top: 15px;
-    Left: 31px;
+    background-color: #073a5970;
+    height: 150px;
 }
 
 .pesquisa{
@@ -62,8 +39,8 @@ header{
 }
 
 .btn{
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-color: #2f4550;
     padding: 3px 5px;
     cursor: pointer;
@@ -74,7 +51,8 @@ header{
     width: 700px;
     height: 38px;
     right: 70px;
-    top: 135px;
+    top: 104px;
+    
     
 }
 
@@ -291,4 +269,12 @@ header{
   .img-slider .navigation{
     bottom: 10px;
   }
+}
+
+footer{
+  text-align: center;
+  line-height: 65px;
+  height:65px;
+  background-color: #073a592c;
+  color: white;
 }

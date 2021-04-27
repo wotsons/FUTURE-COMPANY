@@ -7,15 +7,16 @@
 
 section{
     color: white;
-    background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/65/253565/1.0-rev1/images/e1d2d8012d2fe9a9c1f811bc960ff666/6887db89d7ef6014571cae0b7106ff1b.jpg);
+    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     padding: 20px;
-    width: 100%;
+    width: 97vw;
 }
 
-input, textarea{
+.inputcontato, textarea{
     border: 0;
     background: rgba(255, 255, 255, 0.445);
     margin: auto;
