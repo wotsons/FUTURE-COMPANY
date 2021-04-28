@@ -1,0 +1,58 @@
+.title1{
+    text-align: center;
+    font-size: 50px;    
+    color: white;
+    margin-top: -25px;;
+}
+
+section{
+    color: white;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 97vw;
+}
+
+.inputcontato, textarea{
+    border: 0;
+    background: rgba(255, 255, 255, 0.445);
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#campo {
+    padding-bottom: 20px;
+    padding: 5px;
+}
+#campo *{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+button{
+    border: 2px solid black;
+    height: 33px;
+    width: 70px;
+    background: rgba(255, 255, 255, 0.445);
+    margin: auto;
+    display: block;
+}
+textarea{
+    width: 500px;
+    height: 70px;
+    margin: auto;
+}
+input{
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+    line-height: 65px;
+    height:65px;
+    background-color: #073a592c;
+    color: white;
+}
