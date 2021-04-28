@@ -4,23 +4,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
   
 body{
-    height: 100vh;
-    display: flex;
-    background-color: #030E20;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/65/253565/1.0-rev1/images/e1d2d8012d2fe9a9c1f811bc960ff666/6887db89d7ef6014571cae0b7106ff1b.jpg);
 }
 
 header{
     width: 100%;
-    height: 35vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
+    background-color: #073a5970;
+    height: 150px;
 }
 
 .container_header{
@@ -58,8 +54,8 @@ header{
 }
 
 .btnLupa{
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-color: #2f4550;
     padding: 3px 5px;
     cursor: pointer;
@@ -70,7 +66,7 @@ header{
     width: 700px;
     height: 38px;
     right: 70px;
-    top: 135px;
+    top: 104px;
     
 }
 
@@ -112,6 +108,8 @@ header{
 .title{
   color: #fff;
   margin-left: 460px;
+  position: relative;
+  top: 25px;
 }
 
 /*********** Carousel de images *****************/
@@ -307,12 +305,13 @@ header{
   margin: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, minmax(100px, 200px));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-auto-flow: dense;
 }
 
 .grid-item{
   position: relative;
+  margin: 4px;
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -352,4 +351,22 @@ header{
 }
 .grid-item:hover #coment {
   opacity: 1;
-  }
+}
+
+#footer{
+    text-align: center;
+    line-height: 65px;
+    height:65px;
+    background-color: #073a592c;
+    color: white;
+}
+
+#footerP{
+    text-align: center;
+    position: relative;
+    bottom: -700px;
+    line-height: 65px;
+    height:65px;
+    background-color: #073a592c;
+    color: white;
+}
