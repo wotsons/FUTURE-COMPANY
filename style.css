@@ -32,7 +32,6 @@ header{
     height: 84px;
     Top: 15px;
     Left: 31px;
-}
 
 .pesquisa{
     position: absolute;
@@ -53,7 +52,7 @@ header{
     border: solid 2px #2f4550;
 }
 
-.btnLupa{
+.btn{
     width: 24px;
     height: 24px;
     background-color: #2f4550;
@@ -66,8 +65,7 @@ header{
     width: 700px;
     height: 38px;
     right: 70px;
-    top: 104px;
-    
+    top: 104px;  
 }
 
 .menu ul{
