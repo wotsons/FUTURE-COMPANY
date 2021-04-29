@@ -66,11 +66,6 @@
   }
   
   #footerP{
-      text-align: center;
       position: relative;
       bottom: -700px;
-      line-height: 65px;
-      height:65px;
-      background-color: #073a592c;
-      color: white;
   }
